@@ -79,11 +79,12 @@ alias sinkron='~/shortcut/./sinkronFile.sh'
 alias imgs='~/shortcut/./sinkronImg.sh'
 alias ofline='~/shortcut/./offlineBlog.sh'
 # directori
-alias mury='cd ~/storage/shared/Android/data/io.spck/files/muryp/ && '
-alias muryp='cd  ~/storage/shared/Android/data/io.spck/files/muryp/'
+alias mury='cd ~/storage/shared/.zzz/muryp/ && '
+alias muryp='cd  ~/storage/shared/.zzz/muryp/'
 alias sd='cd ~/storage/shared/'
-alias lab='cd ~/storage/shared/Android/data/io.spck/files/lab/'
-alias kodeku='cd ~/storage/shared/Android/data/io.spck/files/shortcut/'
+alias lab='cd ~/storage/shared/.zzz/lab/'
+alias kodeku='cd ~/storage/shared/.zzz/alias/'
+alias zzz='cd ~/storage/shared/.zzz/'
 ## ssh ========
 
 echo "Warning : jika alias ada yang sama tinggal ganti atau hapus saja alias-nya. "
