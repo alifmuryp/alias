@@ -42,6 +42,8 @@ done
 git add .
 git commit -am "$msg"
 git push origin $brnch
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/github
 git push github $brnch
 '
 
