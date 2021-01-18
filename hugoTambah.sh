@@ -86,7 +86,7 @@ read -p "[kosongi/isi dengan link] : " img
 ## ===== ini tipe
 while [ "$img" = "" ]
 do
-img=muryp.min
+img=none
 break
 done
 
