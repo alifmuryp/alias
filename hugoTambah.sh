@@ -123,33 +123,9 @@ isi="
 \\ndescription: \"$deskripsi\" \\nkeywords: \"$keywords\" \\n--- \\n"
 ## buat file 1 ==========
 echo $isi >> content/$url.md
-## hapus file ==========
+## hapus taxonomi ==========
 dir=content/$url.md
-cari="- 10111110+!+"
-ganti=""
-shopt -s xpg_echo
-hasil="with open('$dir' , 'r') as infile, \\\\
-     open('10111110.txt', 'w') as outfile:\n
-    data = infile.read()\n
-    data = data.replace(\"$cari\", \"$ganti\")\n
-    outfile.write(data)
-    "
-echo "$hasil" > 10111110.py
-python 10111110.py
-rm 10111110.py
-mv 10111110.txt $dir
-cari=" 10111110+!+"
-ganti=""
-shopt -s xpg_echo
-hasil="with open('$dir' , 'r') as infile, \\\\
-     open('10111110.txt', 'w') as outfile:\n
-    data = infile.read()\n
-    data = data.replace(\"$cari\", \"$ganti\")\n
-    outfile.write(data)
-    "
-echo "$hasil" > 10111110.py
-python 10111110.py
-rm 10111110.py
-mv 10111110.txt $dir
+find $dir -type f -exec sed -i 's/- 10111110+!+//g' {} \;
+find $dir -type f -exec sed -i 's/ 10111110+!+//g' {} \;
 
 echo "file berhasil dibuat di : content/$url.md"

@@ -15,7 +15,7 @@ alias uchn='chmod -700'
 alias echo='shopt -s xpg_echo && echo'
 ## ====== Managemen text
 alias Tambah='read -p "Enter Your text : " teks && echo "${teks}" >> '
-alias ganti='~/shortcut/./gantiTeks.sh'
+alias ganti='~/shared/.zzz/alias/./gantiTeks.sh'
 ## ===== Git Command
 alias undo='git reset --hard HEAD^ && git log'
 alias undo2='git reset --hard HEAD^^ && git log'
@@ -72,21 +72,21 @@ catatan && autounggah &&
 alias autopull='echo "muryp=============" && pull'
 ## ====== hugo pribadi
 alias mulai='hugo server --minify'
-alias buka='~/shortcut/./hugoTambah.sh && nano content/$file/$url.md' #img
-alias tambah='~/shortcut/./hugoTambah.sh' #img
-alias add=' && ~/shortcut/./hugoTambah.sh' #img
-alias Ganti='~/shortcut/./hugoTambah.sh' #all
+alias buka='~/shared/.zzz/alias/./hugoTambah.sh && nano content/$file/$url.md' #img
+alias tambah='~/alias/./hugoTambah.sh' #img
+alias add=' && ~/shared/.zzz/alias/./hugoTambah.sh' #img
+alias Ganti='~/shared/.zzz/alias/./hugoTambah.sh' #all
 # hugo sinkron
-alias sinkron='~/shortcut/./sinkronFile.sh'
-alias imgs='~/shortcut/./sinkronImg.sh'
-alias ofline='~/shortcut/./offlineBlog.sh'
+alias sinkron='~/shared/.zzz/alias/./sinkronFile.sh'
+alias imgs='~/shared/.zzz/alias/./sinkronImg.sh'
+alias ofline='~/shared/.zzz/alias/./offlineBlog.sh'
 # directori
-alias mury='cd ~/storage/shared/.zzz/muryp/ && '
+alias mury='cd ~/storage/shared/.zzz/blog/muryp/ && '
 alias muryp='cd  ~/storage/shared/.zzz/muryp/'
 alias sd='cd ~/storage/shared/'
-alias lab='cd ~/storage/shared/.zzz/lab/'
-alias kodeku='cd ~/storage/shared/.zzz/alias/'
-alias zzz='cd ~/storage/shared/.zzz/'
+alias lab='cd ~/lab/'
+alias kodeku='cd ~/alias/'
+
 ## ssh ========
 
 echo "Warning : jika alias ada yang sama tinggal ganti atau hapus saja alias-nya. "
