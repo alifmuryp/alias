@@ -84,9 +84,9 @@ esac
 echo "Whant use Image\\n=================="
 read -p "[kosongi/isi dengan link] : " img
 ## ===== ini tipe
-while [ "$img" = "" ]
+while [ "$img" != "" ]
 do
-img=none
+image="image: \"img/$img.png\""
 break
 done
 
@@ -95,9 +95,9 @@ done
 echo "Whant use thumbnail \\n ============="
 read -p "[kosongi/isi dengan link] : " thumb
 ## ===== ini tipe
-while [ "$thumb" = "" ]
+while [ "$thumb" != "" ]
 do
-thumb=none
+thumb="thumbnail : \"thumb/$thumb.png\""
 break
 done
 
@@ -119,7 +119,7 @@ shopt -s xpg_echo
 isi="
 \\ndraft: $draft \\nauthors:\\n
 - $authors\\nshow_comments: $komen \\n
-\\ntype: $type \\n$Taxonomy \\n$hasilTakso\\nimage: \"img/$img.png\" \\nthumbnail : \"thumb/$thumb.png\" \\n 
+\\ntype: $type \\n$Taxonomy \\n$hasilTakso\\n$image \\n$thumb \\n 
 \\ndescription: \"$deskripsi\" \\nkeywords: \"$keywords\" \\n--- \\n"
 ## buat file 1 ==========
 echo $isi >> content/$url.md

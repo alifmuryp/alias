@@ -99,6 +99,7 @@ alias image='cd  ~/storage/shared/.zzz/image/ && '
 alias sd='cd ~/storage/shared/'
 alias lab='cd ~/lab/'
 alias kodeku='cd ~/storage/shared/.zzz/alias/'
+alias lms='cd ~/storage/shared/.zzz/lms/ &&'
 
 ## ssh ========
 
