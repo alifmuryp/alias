@@ -15,7 +15,7 @@ git branch -D (branch) : delete kasar
 
 git remote -v : list remote dan link-nya
 
-git rembase (branch) : menyamakan commit
+git rebase (branch) : menyamakan commit
 
 ======= alias
 alias undo : undo commit
@@ -24,6 +24,14 @@ alias log
 alias confik
 alias status
 alias init
+alias checkuot='git checkuot'
+alias merge='git branch merge'
+alias fetch='git fecth'
+alias dbranch='git branch -d'
+alias Dbranch='git branch -D'
+alias vremote='git remote -v'
+alias remote='git remote'
+alias rebase='git rebase'
 alias graph
 #commit dengan pesan
 alias unggah

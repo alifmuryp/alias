@@ -23,6 +23,14 @@ alias log='git log'
 alias confik='git config'
 alias status='git status'
 alias init='git init'
+alias checkuot='git checkuot'
+alias merge='git branch merge'
+alias fetch='git fecth'
+alias dbranch='git branch -d'
+alias Dbranch='git branch -D'
+alias vremote='git remote -v'
+alias remote='git remote'
+alias rebase='git rebase'
 alias graph='git log --all --decorate --oneline --graph'
 alias githelp='cat ~/storage/shared/.zzz/alias/git.txt'
 #commit dengan pesan
@@ -73,9 +81,9 @@ catatan && autounggah &&
 '
 alias autopull='echo "muryp=============" && pull'
 ## ====== hugo pribadi
-alias mulai='hugo server --minify'
+alias st='hugo server --minify'
 alias buka='source ~/shared/.zzz/alias/hugoTambah.sh && nano content/$file/$url.md' #img
-alias tambah='source ~/storage/shared/.zzz/alias/hugoTambah.sh' #img
+alias add='source ~/storage/shared/.zzz/alias/hugoTambah.sh' #img
 alias Ganti='source ~/shared/.zzz/alias/hugoTambah.sh' #all
 # hugo sinkron
 # alias sinkron='source ~/shared/.zzz/alias/sinkronFile.sh'
