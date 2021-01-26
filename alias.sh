@@ -15,7 +15,7 @@ alias uchn='chmod -700'
 alias echo='shopt -s xpg_echo && echo'
 ## ====== Managemen text
 alias Tambah='read -p "Enter Your text : " teks && echo "${teks}" >> '
-alias ganti='~/shared/.zzz/alias/./gantiTeks.sh'
+alias ganti='source ~/shared/.zzz/alias/gantiTeks.sh'
 ## ===== Git Command
 alias undo='git reset --hard HEAD^ && git log'
 alias undo2='git reset --hard HEAD^^ && git log'
@@ -23,6 +23,8 @@ alias log='git log'
 alias confik='git config'
 alias status='git status'
 alias init='git init'
+alias graph='git log --all --decorate --oneline --graph'
+alias githelp='cat ~/storage/shared/.zzz/alias/git.txt'
 #commit dengan pesan
 alias unggah='
 read -p "Your Message : " msg
@@ -72,20 +74,22 @@ catatan && autounggah &&
 alias autopull='echo "muryp=============" && pull'
 ## ====== hugo pribadi
 alias mulai='hugo server --minify'
-alias buka='~/shared/.zzz/alias/./hugoTambah.sh && nano content/$file/$url.md' #img
-alias tambah='~/alias/./hugoTambah.sh' #img
-alias add=' && ~/shared/.zzz/alias/./hugoTambah.sh' #img
-alias Ganti='~/shared/.zzz/alias/./hugoTambah.sh' #all
+alias buka='source ~/shared/.zzz/alias/hugoTambah.sh && nano content/$file/$url.md' #img
+alias tambah='source ~/storage/shared/.zzz/alias/hugoTambah.sh' #img
+alias Ganti='source ~/shared/.zzz/alias/hugoTambah.sh' #all
 # hugo sinkron
-alias sinkron='~/shared/.zzz/alias/./sinkronFile.sh'
-alias imgs='~/shared/.zzz/alias/./sinkronImg.sh'
-alias ofline='~/shared/.zzz/alias/./offlineBlog.sh'
+# alias sinkron='source ~/shared/.zzz/alias/sinkronFile.sh'
+# alias imgs='~/shared/.zzz/alias/./sinkronImg.sh'
+# alias ofline='~/shared/.zzz/alias/./offlineBlog.sh'
 # directori
-alias mury='cd ~/storage/shared/.zzz/blog/muryp/ && '
+alias mury='cd ~/storage/shared/.zzz/muryp/ && '
+alias studio='cd ~/storage/shared/.zzz/studio/ && '
 alias muryp='cd  ~/storage/shared/.zzz/muryp/'
+alias dstudio='cd  ~/storage/shared/.zzz/studio/'
+alias image='cd  ~/storage/shared/.zzz/image/ && '
 alias sd='cd ~/storage/shared/'
 alias lab='cd ~/lab/'
-alias kodeku='cd ~/alias/'
+alias kodeku='cd ~/storage/shared/.zzz/alias/'
 
 ## ssh ========
 

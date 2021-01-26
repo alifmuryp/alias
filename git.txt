@@ -1,0 +1,30 @@
+======== Original command
+git log --all --decorate --oneline --graph : menampilkan log dengan cantik
+
+git checkuot (branch) : pindah branch
+
+git branch merge (branch) 
+
+git fecth (remote) : update repo dari remote lain
+
+git branch merge (remote)/(branch) : merge branch repo lain ke local
+
+git branch -d (branch) : delete halus
+
+git branch -D (branch) : delete kasar
+
+git remote -v : list remote dan link-nya
+
+git rembase (branch) : menyamakan commit
+
+======= alias
+alias undo : undo commit
+alias undo2 : undo commit 2x
+alias log 
+alias confik
+alias status
+alias init
+alias graph
+#commit dengan pesan
+alias unggah
+
