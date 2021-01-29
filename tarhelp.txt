@@ -1,0 +1,3 @@
+tar -zcvf namafile.tar.gz /folder
+tar -xvzf namafile.tar.gz /folderTujuan
+

@@ -33,7 +33,6 @@ alias vremote='git remote -v'
 alias remote='git remote'
 alias rebase='git rebase'
 alias graph='git log --all --decorate --oneline --graph'
-alias githelp='cat ~/storage/shared/.zzz/alias/git.txt'
 #commit dengan pesan
 alias unggah='
 read -p "Your Message : " msg
@@ -101,7 +100,9 @@ alias lab='cd ~/lab/'
 alias kodeku='cd ~/storage/shared/.zzz/alias/'
 alias lms='cd ~/storage/shared/.zzz/lms/ &&'
 
-## ssh ========
+## help ========
+alias githelp='cat ~/storage/shared/.zzz/alias/git.txt'
+alias tarhelp='cat ~/storage/shared/.zzz/alias/tarhelp.txt'
 
 echo "Warning : jika alias ada yang sama tinggal ganti atau hapus saja alias-nya. "
 echo "===================================="
