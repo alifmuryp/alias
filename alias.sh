@@ -15,7 +15,7 @@ alias uchn='chmod -700'
 alias echo='shopt -s xpg_echo && echo'
 ## ====== Managemen text
 alias Tambah='read -p "Enter Your text : " teks && echo "${teks}" >> '
-alias ganti='source ~/shared/.zzz/alias/gantiTeks.sh'
+alias ganti='source ~/storage/shared/.zzz/alias/gantiTeks.sh'
 ## ===== Git Command
 alias undo='git reset --hard HEAD^ && git log'
 alias undo2='git reset --hard HEAD^^ && git log'
@@ -84,7 +84,7 @@ alias autopull='echo "muryp=============" && pull'
 alias st='hugo server --minify'
 alias buka='source ~/shared/.zzz/alias/hugoTambah.sh && nano content/$file/$url.md' #img
 alias add='source ~/storage/shared/.zzz/alias/hugoTambah.sh' #img
-alias Ganti='source ~/shared/.zzz/alias/hugoTambah.sh' #all
+alias Ganti='source ~/storage/shared/.zzz/alias/hugoTambah.sh' #all
 # hugo sinkron
 # alias sinkron='source ~/shared/.zzz/alias/sinkronFile.sh'
 # alias imgs='~/shared/.zzz/alias/./sinkronImg.sh'
