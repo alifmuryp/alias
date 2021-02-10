@@ -23,7 +23,7 @@ alias log='git log'
 alias confik='git config'
 alias status='git status'
 alias init='git init'
-alias checkuot='git checkuot'
+alias checkuot='git checkout'
 alias merge='git branch merge'
 alias fetch='git fecth'
 alias branch='git branch'
@@ -36,25 +36,13 @@ alias graph='git log --all --decorate --oneline --graph'
 #commit dengan pesan
 alias unggah='
 read -p "Your Message : " msg
-echo "\\n ==================\\nYakin Ingin menggunakan branch master?\\ngunakan : (kosongi/isi sesuai branch)\\n ==================" 
-read -p "Jawab : " jawab
-## ===== ini draft
-while [ "$jawab" != "" ]
-do
-brnch=$jawab
-break
-done
-while [ "$jawab" = "" ]
-do
-brnch=master
-break
-done
+branch_name=$(git symbolic-ref --short HEAD)
 git add .
 git commit -am "$msg"
 git push origin $brnch
 eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/github
-git push github $brnch
+git push github $branch_name
 '
 
 # komit auto
