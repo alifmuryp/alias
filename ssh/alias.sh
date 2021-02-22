@@ -1,0 +1,1 @@
+alias helpssh='cat $getAlias/ssh/helpSSH.txt'
