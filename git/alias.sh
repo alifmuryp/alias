@@ -24,6 +24,7 @@ alias rebase='git rebase'
 alias graph='git log --all --decorate --oneline --graph'
 #commit dengan pesan
 alias unggah='
+git add .
 statusCommit=$(git status -s)
 while [ "$statusCommit" != "" ]
 do 
