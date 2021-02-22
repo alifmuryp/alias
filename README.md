@@ -1,13 +1,20 @@
 # Welcome to my shortcut code
-Ini adalah shortcut atau alias yang saya gunakan. Mungkin akan selalu update.
+Ini adalah shotname atau alias yang saya gunakan untuk memudahkan dalam development di termux. Mungkin akan selalu update.
 
 ## kegunaan
-Untuk memudahkan pengoperasian bash command. Agar bisa fokus ke konten, sehingga lebih produktif. Ya sebernarnya ada fakto males juga plus ribet. Dan setelah ngulik lebih dalam mengenai shell, saya malah menemukan banyak hal terutama mengenai penggunaan masing-masing bahasa. Yang sebelumnya saya tidak terlalu memperhatikan.
+Karena saya menggunakan android, saya mendapat keterbatasan, antara lain keyboard, layar dan aplikasi. Untuk mengakali tersebut saya menggunakan shortname untuk mempersingkat waktu, agar tidak habis di development saja.
 
 ## Sekilas kode
-- direktori tertentu(penting), sehingga tak perlu mengetikkan panjang lebar direktori, yang kadang harus menggunakan tanda "~/" agar mulai dari home.
-- Beberapa command yang dipersingkat, seperti ``` cd .. ==> ..``` dsb
-- Dan tentunya masalah hugo dan git
+- bassic command yang menurut saya perlu disingkat (ini berlaku untuk android/jika kalian pakek PC/laptop mungkin ada yang tak terlalu cocok)
+- mempersingkat pull, push, dan bebrapa syntax lainnya di git 
+- memudahkan menambah, memulai server hugo
+- bebrapa catatan untuk tar, ssh, hugo, git 
+
+## Cara Penggunaan
+salin kode berikut ke bash. (jika di termux ada di ``../usr/etc/bash.bashrc`)
+> getAlias=~/<lokasiAlias>
+source $getAlias/alias.sh 
+
 
 ## Silahkan ubah sesuai kebutuhan kalian
 > untuk cara pengubahan saya akan usahakan secepatnya. Terimakasih~
