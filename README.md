@@ -11,7 +11,7 @@ Karena saya menggunakan android, saya mendapat keterbatasan, antara lain keyboar
 - bebrapa catatan untuk tar, ssh, hugo, git 
 
 ## Cara Penggunaan
-salin kode berikut ke bash. (jika di termux ada di ``../usr/etc/bash.bashrc`)
+salin kode berikut ke bash. (jika di termux ada di `../usr/etc/bash.bashrc`)
 > getAlias=~/<lokasiAlias>
 source $getAlias/alias.sh 
 
