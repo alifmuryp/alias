@@ -1,29 +1,31 @@
+======== Tutor Singkat untuk memulai
+- git clone <url>
+- giteg
+- gitug
+
 ======== Original command
-git log --all --decorate --oneline --graph : menampilkan log dengan cantik
-
-git checkuot (branch) : pindah branch
-
-git branch merge (branch) 
-
-git fecth (remote) : update repo dari remote lain
-
-git branch merge (remote)/(branch) : merge branch repo lain ke local
-
-git branch -d (branch) : delete halus
-
-git branch -D (branch) : delete kasar
-
+git init : untuk membuat folder menjadi git 
+git clone : menyalin repo dari github/gitlab/bitbucket
+git fecth <remote> : update repo dari remote lain
+git remote <nameRemote> <url>
 git remote -v : list remote dan link-nya
+git log --all --decorate --oneline --graph : menampilkan log dengan cantik
+#branch
+git branch merge <branchName> : tambah branch
+git checkuot <branch> : pindah branch
+git branch merge <branch> : merge branch
+git branch merge <remote>/<branch> : merge branch repo lain ke local
+git branch -d <branch> : delete halus
+git branch -D <branch> : delete kasar
+git rebase <branch> : menyamakan commit
 
-git rebase (branch) : menyamakan commit
-
-======= alias
-alias undo : undo commit
-alias undo2 : undo commit 2x
-alias log 
-alias confik
-alias status
-alias init
+======= alias command
+alias undo = undo commit
+alias undo2 = undo commit 2x
+alias log = menampilakan log
+alias confik = 'git config'
+alias status = menampilkan status
+alias init = 'git init'
 alias checkuot='git checkuot'
 alias merge='git branch merge'
 alias fetch='git fecth'
@@ -33,7 +35,10 @@ alias Dbranch='git branch -D'
 alias vremote='git remote -v'
 alias remote='git remote'
 alias rebase='git rebase'
-alias graph
-#commit dengan pesan
-alias unggah
+alias graph = menampilkan log <cantik>
+
+#commit
+alias unggah <dwngan pesan>
+alias commit auto <tanpa pesan>
+
 

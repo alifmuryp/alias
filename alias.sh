@@ -1,8 +1,7 @@
-#================#
-# welcome        #
-#                #
-#                #
-#================#
+#==================================#
+#  welcome to my shortname/alias   #
+#     sesuaikan kebutuhan anda     #
+#==================================#
 
 ## ======= tools
 getAlias=~/storage/shared/.zzz/alias
