@@ -3,6 +3,12 @@
 - giteg
 - gitug
 
+======== Tutor Singkat untuk pull req
+git fetch <nama remote> <nama cabang>
+git pull <nama remote> <nama cabang>
+git diff <branch-yang-di-pull> github/<branch-sekarang> (melihat perbandingan)
+git merge  <branch-yang-di-pull> github/<branch-sekarang> (merger)
+
 ======== Original command
 git init : untuk membuat folder menjadi git 
 git clone : menyalin repo dari github/gitlab/bitbucket
