@@ -6,8 +6,8 @@
 ======== Tutor Singkat untuk pull req
 git fetch <nama remote> <nama cabang>
 git pull <nama remote> <nama cabang>
-git diff <branch-yang-di-pull> github/<branch-sekarang> (melihat perbandingan)
-git merge  <branch-yang-di-pull> github/<branch-sekarang> (merger)
+git diff <branch1> github/<branch2> (melihat perbandingan)
+git merge  <branch-sekarang> github/<branch-yang-dipull> (merger)
 
 ======== Original command
 git init : untuk membuat folder menjadi git 
@@ -24,6 +24,8 @@ git branch merge <remote>/<branch> : merge branch repo lain ke local
 git branch -d <branch> : delete halus
 git branch -D <branch> : delete kasar
 git rebase <branch> : menyamakan commit
+#config
+git config --global core.editor "nano"
 
 ======= alias command
 alias undo = undo commit
