@@ -43,10 +43,13 @@ alias Dbranch='git branch -D'
 alias vremote='git remote -v'
 alias remote='git remote'
 alias rebase='git rebase'
-alias graph = menampilkan log <cantik>
+alias graph = menampilkan log (cantik)
 
 #commit
-alias unggah <dwngan pesan>
-alias commit auto <tanpa pesan>
+alias gitsave (dengan pesan != push)
+alias unggah (dengan pesan + push)
+alias autocommit (pesan otomatis != push)
+alias autounggah (pesan otomatis + push)
+
 
 

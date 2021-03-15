@@ -53,6 +53,9 @@ mengunggahGit'
 alias autounggah='git add . 
 git commit -am "Mengubah $(git status -s) pada tanggal $(date)"
 mengunggahGit'
+alias autosave='git add . 
+git commit -am "Mengubah $(git status -s) pada tanggal $(date)"
+'
 
 alias unggahsemua='
 echo "bagian MuryP===============" && 
