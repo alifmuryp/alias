@@ -50,14 +50,14 @@ gitsave
 mengunggahGit'
 
 # komit auto
-alias autounggah='git add . 
-git commit -am "Manipulasi file :
+alias autosave='git add . 
+git commit -am "Manipulasi file/folder pada :
 $(git status -s) 
 Pada tanggal $(date)"
-mengunggahGit'
-alias autosave='git add . 
-git commit -am "Mengubah $(git status -s) pada tanggal $(date)"
 '
+alias autounggah='
+autosave
+mengunggahGit'
 
 alias unggahsemua='
 echo "bagian MuryP===============" && 
