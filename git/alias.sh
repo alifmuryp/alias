@@ -51,7 +51,9 @@ mengunggahGit'
 
 # komit auto
 alias autounggah='git add . 
-git commit -am "Mengubah $(git status -s) pada tanggal $(date)"
+git commit -am "Manipulasi file :
+$(git status -s) 
+Pada tanggal $(date)"
 mengunggahGit'
 alias autosave='git add . 
 git commit -am "Mengubah $(git status -s) pada tanggal $(date)"
