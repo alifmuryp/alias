@@ -9,3 +9,12 @@ hugo serve --minify : membuat server hugo dengan konvert
 ===== alias
 add : menambah konten
 st : membuat server minify
+===== alias Pribadi
+addmuryp
+addcode
+addlms
+# Spesifik
+addlms
+addprojek
+addocs
+addblog
