@@ -2,7 +2,7 @@
 #  welcome to my shortname/alias   #
 #     sesuaikan kebutuhan anda     #
 #==================================#
-
+clear
 ## ======= tools
 getAlias=~/storage/shared/.zzz/alias
 source $getAlias/git/alias.sh # for alias github
@@ -11,7 +11,6 @@ source $getAlias/ssh/alias.sh # for alias ssh
 source $getAlias/tar/alias.sh # for alias ssh
 
 ## ======= bassic
-alias reload='source $getAlias/alias.sh'
 alias aliashelp='cat $getAlias/help.txt'
 alias la='ls -a'
 alias lal='ls -al'
@@ -19,7 +18,7 @@ alias ll='ls -l'
 alias rm='rm -rf'
 alias cp='cp -rf'
 alias ..='cd  ..'
-alias cl='clear'
+alias cl='clear && source $getAlias/alias.sh'
 alias pkg='pkg update && pkg'
 alias cha='chmod 777'
 alias ucha='chmod -777'
@@ -43,16 +42,6 @@ alias lms='cd $mydir/lms/'
 alias zzz='cd $mydir'
 alias note='cd $mydir/story'
 alias code='cd $mydir/code'
-
-## Tulisan Awal
-### ubah sesuai kebutuhan
-clear
-echo "Warning : jika alias ada yang sama tinggal ganti atau hapus saja alias-nya. "
-echo "===================================="
-echo "Kunjungi https://muryp.my.id/ atau baca dokumentasinya di github atau gitlab untuk tahu lebih banyak"
-echo "===================================="
-echo "Lihat juga projek lainnya di muryp.my.id"
-echo "===================================="
 
 # comingsoon
 ## ====== Managemen

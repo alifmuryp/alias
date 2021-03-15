@@ -1,0 +1,6 @@
+Warning : jika alias ada yang sama tinggal ganti atau hapus saja alias-nya.
+====================================
+Kunjungi https://muryp.my.id/ atau baca dokumentasinya di github atau gitlab untuk tahu lebih banyak
+====================================
+Lihat juga projek lainnya di muryp.my.id
+====================================
