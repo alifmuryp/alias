@@ -22,37 +22,38 @@ alias dbranch='git branch -d'
 alias Dbranch='git branch -D'
 alias rebase='git rebase'
 alias graph='git log --all --decorate --oneline --graph'
+alias komit='echo "Enter your commit ID :" &&
+read komitID && git checkout ${komitID} && git log'
 #commit dengan pesan
-alias unggah='
-echo "are you sure on :"
+alias gitsave='
+echo "Kamu beradapa di :"
 branch
 git add .
 statusCommit=$(git status -s)
 while [ "$statusCommit" != "" ]
 do 
-echo "kamu belum melakukan commit pada : \\n $statusCommit"
+echo "kamu juga belum melakukan commit pada : \\n $statusCommit"
 read -p "Your Message : " msg
 git add .
 git commit -am "$msg"
 break
-done
+done'
+alias mengunggahGit='
 brnch=$(git symbolic-ref --short HEAD)
 git push origin $brnch
 eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/github
 git push github $brnch
 '
+alias unggah='
+gitsave
+mengunggahGit'
 
 # komit auto
 alias autounggah='git add . 
-msg="rebuilding @muryp on `date`"
-if [ $# -eq 1 ]
-  then msg="$1"
-fi
-git commit -m "$msg"
-git push origin master'
-alias komit='echo "Enter your commit ID :" &&
-read message && git checkout ${message} && git log'
+git commit -am "Mengubah $(git status -s) pada tanggal $(date)"
+mengunggahGit'
+
 alias unggahsemua='
 echo "bagian MuryP===============" && 
 muryp && autounggah && 
