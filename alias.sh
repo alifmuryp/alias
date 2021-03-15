@@ -40,6 +40,10 @@ alias sd='cd ~/storage/shared/'
 alias lab='cd ~/lab/'
 alias kodeku='cd $mydir/alias/'
 alias lms='cd $mydir/lms/ &&'
+alias zzz='cd $mydir'
+alias note='cd $mydir/story'
+alias code='cd $mydir/code'
+
 ## Tulisan Awal
 ### ubah sesuai kebutuhan
 clear
