@@ -5,7 +5,7 @@ do
 statusCommit=$(git status -s)
 while [ "statusCommit" != "" ]
 do
-autounggah
+autosave
 break
 done
 done
