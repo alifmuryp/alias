@@ -1,3 +1,15 @@
+alias lahir='
+echo "sedang di tes"
+statusCommit=$(git status -s)
+while [ "$statusCommit" != "" ]
+do
+autounggah
+done
+while [ "$statusCommit" = "" ]
+do
+lahir
+done
+'
 ## ===== Git command
 alias githelp='cat $getAlias/git/help.txt'
 alias init='git init'
@@ -61,14 +73,14 @@ mengunggahGit'
 
 alias unggahsemua='
 echo "bagian MuryP===============" && 
-muryp && autounggah && 
-echo "bagian studio===============" &&
-studio && autounggah &&
-echo "bagian studio===============" &&
-arts && autounggah &&
+mury autounggah && 
 echo "bagian studio===============" &&
 lms && autounggah &&
-echo "bagian studio===============" &&
-catatan && autounggah &&
+echo "bagian code===============" &&
+code && autounggah &&
+echo "bagian alias===============" &&
+kodeku && autounggah &&
+echo "bagian image===============" &&
+image && autounggah 
 '
 alias autopull='echo "muryp=============" && pull'

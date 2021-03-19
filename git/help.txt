@@ -48,8 +48,9 @@ alias graph = menampilkan log (cantik)
 #commit
 alias gitsave (dengan pesan != push)
 alias unggah (dengan pesan + push)
-alias autocommit (pesan otomatis != push)
+alias autosave (pesan otomatis != push)
 alias autounggah (pesan otomatis + push)
+alias autopull (lupa)
 
 
 
