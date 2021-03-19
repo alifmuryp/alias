@@ -3,11 +3,13 @@ echo "sedang di tes..."
 while [ "jik" != "end" ]
 do
 statusCommit=$(git status -s)
+
 while [ "statusCommit" != "" ]
 do
 autosave
 break
 done
+
 done
 '
 alias muncul='
