@@ -1,15 +1,19 @@
 alias lahir='
-echo "sedang di tes"
+echo "sedang di tes..."
+while [ "jik" != "end" ]
+do
 statusCommit=$(git status -s)
-while [ "$statusCommit" != "" ]
+while [ "statusCommit" != "" ]
 do
 autounggah
 break
 done
-while [ "$statusCommit" = "" ]
+done
+'
+alias muncul='
+while [ "jik" != "end" ]
 do
-lahir
-break
+autounggah
 done
 '
 ## ===== Git command
