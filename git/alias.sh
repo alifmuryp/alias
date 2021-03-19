@@ -3,19 +3,14 @@ echo "sedang di tes..."
 while [ "jik" != "end" ]
 do
 statusCommit=$(git status -s)
-
+muncul
+done
+'
+alias muncul='
 while [ "statusCommit" != "" ]
 do
 autosave
 break
-done
-
-done
-'
-alias muncul='
-while [ "jik" != "end" ]
-do
-autounggah
 done
 '
 ## ===== Git command
