@@ -1,13 +1,12 @@
 alias lahir='
 echo "sedang di tes"
 statusCommit=$(git status -s)
+while [ "$statusCommit" = "" ]
+do
 while [ "$statusCommit" != "" ]
 do
 autounggah
 done
-while [ "$statusCommit" = "" ]
-do
-lahir
 done
 '
 ## ===== Git command
