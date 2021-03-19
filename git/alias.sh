@@ -10,6 +10,7 @@ break
 done
 done
 '
+tes
 ## ===== Git command
 alias githelp='cat $getAlias/git/help.txt'
 alias init='git init'
