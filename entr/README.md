@@ -1,0 +1,1 @@
+baca :https://qastack.id/apple/40705/monitor-a-folder-for-changes-and-run-a-command-when-a-change-is-detected

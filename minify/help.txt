@@ -1,0 +1,13 @@
+===========================================
+Warning : pastikan kalian sudah menginstall yui-compress
+jika belum ketik : installyui
+===========================================
+cara penggunaan :
+yui-compress <namaFile>.css >> <hasilNamaFile>.css
+atau
+minify <namaFile>.css >> <hasilNamaFile>.css
+
+pribadi :
+mury minify
+lms minify
+code minify

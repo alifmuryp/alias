@@ -1,4 +1,5 @@
-alias lahir='
+# auto commit ketika ada file yang di save
+alias commitSave='
 echo "sedang di tes..."
 while [ "jik" != "end" ]
 do

@@ -4,11 +4,12 @@
 #==================================#
 clear
 ## ======= tools
-getAlias=~/storage/shared/.zzz/alias
+# getAlias=~/storage/shared/.zzz/alias
 source $getAlias/git/alias.sh # for alias github
 source $getAlias/gohugo/alias.sh # for alias gohugo
 source $getAlias/ssh/alias.sh # for alias ssh
 source $getAlias/tar/alias.sh # for alias ssh
+source $getAlias/minify/alias.sh # for alias ssh
 
 ## ======= bassic
 alias aliashelp='cat $getAlias/help.txt'
@@ -29,19 +30,21 @@ alias ubun='~/ubuntu/./su.sh'
 
 ## ====== My Direktori
 ### ubah sesuai direktori anda
-mydir=~/storage/shared/.zzz
-alias mury='cd $mydir/muryp/ && '
-alias studio='cd $mydir/studio/ && '
-alias muryp='cd  $mydir/muryp/'
-alias dstudio='cd  $mydir/studio/'
-alias image='cd  $mydir/image/ && '
+alias mury='cd $getAlias/../muryp/ && '
+alias studio='cd $getAlias/../studio/ && '
+alias muryp='cd  $getAlias/../muryp/'
+alias dstudio='cd  $getAlias/../studio/'
+alias image='cd  $getAlias/../image/ && '
 alias sd='cd ~/storage/shared/'
 alias lab='cd ~/lab/'
-alias kodeku='cd $mydir/alias/'
-alias lms='cd $mydir/lms/'
-alias zzz='cd $mydir'
-alias note='cd $mydir/story'
-alias code='cd $mydir/code'
+alias kodeku='cd $getAlias/../alias/'
+alias lms='cd $getAlias/../lms/'
+alias zzz='cd $getAlias/..'
+alias note='cd $getAlias/../story'
+alias code='cd $getAlias/../code'
+alias hosting='cd $getAlias/../hosting'
+
+hosting=$getAlias/../hosting
 
 # comingsoon
 ## ====== Managemen
