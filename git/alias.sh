@@ -83,7 +83,7 @@ code && autounggah
 echo "bagian alias===============" 
 kodeku && autounggah 
 echo "bagian image===============" 
-image && autounggah 
+image autounggah 
 echo "bagian image===============" 
 hosting && autounggah 
 echo "bagian image===============" 
