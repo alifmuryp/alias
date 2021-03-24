@@ -51,6 +51,6 @@ alias unggah (dengan pesan + push)
 alias autosave (pesan otomatis != push)
 alias autounggah (pesan otomatis + push)
 alias autopull (lupa)
-
+alias unggahsemua
 
 

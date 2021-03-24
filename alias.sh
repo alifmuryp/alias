@@ -10,6 +10,7 @@ source $getAlias/gohugo/alias.sh # for alias gohugo
 source $getAlias/ssh/alias.sh # for alias ssh
 source $getAlias/tar/alias.sh # for alias ssh
 source $getAlias/minify/alias.sh # for alias ssh
+source $getAlias/sass/alias.sh # for alias sass
 
 ## ======= bassic
 alias aliashelp='cat $getAlias/help.txt'
@@ -30,19 +31,21 @@ alias ubun='~/ubuntu/./su.sh'
 
 ## ====== My Direktori
 ### ubah sesuai direktori anda
-alias mury='cd $getAlias/../muryp/ && '
-alias studio='cd $getAlias/../studio/ && '
-alias muryp='cd  $getAlias/../muryp/'
-alias dstudio='cd  $getAlias/../studio/'
-alias image='cd  $getAlias/../image/ && '
+#web
+alias mury='cd $getAlias/../web/muryp/ && '
+alias muryp='cd  $getAlias/../web/muryp/'
+alias studio='cd $getAlias/../web/studio/ && '
+alias dstudio='cd  $getAlias/../web/studio/'
+alias image='cd  $getAlias/../web/image/ && '
+alias hosting='cd $getAlias/../web/hosting'
+alias lms='cd $getAlias/../web/lms/'
+alias code='cd $getAlias/../web/code'
+#lain
 alias sd='cd ~/storage/shared/'
-alias lab='cd ~/lab/'
-alias kodeku='cd $getAlias/../alias/'
-alias lms='cd $getAlias/../lms/'
+alias lab='cd $getAlias/../lab/'
+alias kodeku='cd $getAlias'
 alias zzz='cd $getAlias/..'
 alias note='cd $getAlias/../story'
-alias code='cd $getAlias/../code'
-alias hosting='cd $getAlias/../hosting'
 
 hosting=$getAlias/../hosting
 
