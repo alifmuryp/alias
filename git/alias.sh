@@ -74,19 +74,19 @@ autosave
 mengunggahGit'
 
 alias unggahsemua='
-echo "bagian MuryP===============" 
+echo "\\n\\n\\n\\n\\nbagian MuryP===============" 
 mury autounggah 
-echo "bagian studio===============" 
+echo "\\n\\n\\n\\n\\nbagian studio===============" 
 lms && autounggah
-echo "bagian code===============" 
+echo "\\n\\n\\n\\n\\nbagian code===============" 
 code && autounggah 
-echo "bagian alias===============" 
+echo "\\n\\n\\n\\n\\nbagian alias===============" 
 kodeku && autounggah 
-echo "bagian image===============" 
+echo "\\n\\n\\n\\n\\nbagian image===============" 
 image autounggah 
-echo "bagian image===============" 
+echo "\\n\\n\\n\\n\\nbagian image===============" 
 hosting && autounggah 
-echo "bagian image===============" 
+echo "\\n\\n\\n\\n\\nbagian image===============" 
 lab && autounggah 
 '
 alias autopull='echo "muryp=============" && pull'
