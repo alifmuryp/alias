@@ -32,12 +32,14 @@ alias ubun='~/ubuntu/./su.sh'
 ## ====== My Direktori
 ### ubah sesuai direktori anda
 #web
+imgMury=$getAlias/../web/muryp/hosting/img/public
+scriptMury=$getAlias/../web/muryp/hosting/script/public
 alias mury='cd $getAlias/../web/muryp/ && '
 alias muryp='cd  $getAlias/../web/muryp/'
 alias studio='cd $getAlias/../web/studio/ && '
 alias dstudio='cd  $getAlias/../web/studio/'
-alias image='cd  $getAlias/../web/image/ && '
-alias hosting='cd $getAlias/../web/hosting'
+alias imgMury='cd  $imgMury'
+alias scriptMury='cd $scriptMury'
 alias lms='cd $getAlias/../web/lms/'
 alias code='cd $getAlias/../web/code'
 #lain

@@ -15,7 +15,26 @@ alias addprojek='addcode && hugo new projek/'
 alias addocs='addcode && hugo new docs/'
 alias addblog='mury hugo new blog/'
 
-
+#render
+##langsung diunggah ke repo
+alias onmuryp='
+muryp
+rm config/_default/params.toml
+cp config/_default/.online config/_default/params.toml
+hugo --minify 
+rm  ../offline/muryp/public
+cp public ../online/muryp/
+autounggah
+'
+##review offline (tanpa internet)
+offmuryp='
+muryp
+rm config/_default/params.toml
+cp config/_default/.offline config/_default/params.toml
+st
+'
+rmoff='
+rm $getAlias/../offline/*'
 # hugo sinkron
 # alias sinkron='source ~/shared/.zzz/alias/sinkronFile.sh'
 # alias imgs='~/shared/.zzz/alias/./sinkronImg.sh'
