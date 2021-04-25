@@ -22,19 +22,18 @@ muryp
 rm config/_default/params.toml
 cp config/_default/.online config/_default/params.toml
 hugo --minify 
-rm  ../offline/muryp/public
-cp public ../online/muryp/
+rm  ../online/muryp/public
+mv public ../online/muryp/
+cd ../online/muryp/
 autounggah
 '
 ##review offline (tanpa internet)
-offmuryp='
+alias offmuryp='
 muryp
 rm config/_default/params.toml
 cp config/_default/.offline config/_default/params.toml
 st
 '
-rmoff='
-rm $getAlias/../offline/*'
 # hugo sinkron
 # alias sinkron='source ~/shared/.zzz/alias/sinkronFile.sh'
 # alias imgs='~/shared/.zzz/alias/./sinkronImg.sh'

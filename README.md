@@ -24,3 +24,27 @@ source $getAlias/alias.sh
 
 ## Catatan Terakhir
 Code ini sedang masa uji coba dan akan terus dikembangkan agar lebih ringkas dan beberapa command tidak berfungsi karena belum saya buat.
+
+
+## catatan pralias
+```
+pkg update && pkg upgrade
+cd ../usr/etc
+echo "clear\\n
+getAlias=~/storage/shared/.zzz/alias\\n
+source ~/storage/shared/.zzz/alias/alias.sh\\n
+cat $getAlias/warning.txt" >> bash.bashrc
+cd /sdcard/
+mkdir .zzz
+cd .zzz
+git clone gitlab.com/muryp/alias
+git clone gitlab.com/muryp/alias
+mkdir web
+git clone gitlab.com/muryp/muryp
+cd muryp
+mkdir static
+cd static
+git clone gitlab.com/muryp/hosting
+git clone gitlab.com/muryp/img
+
+```
